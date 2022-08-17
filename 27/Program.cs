@@ -14,5 +14,7 @@ while (num > 0)
     sum = sum + a;
     num = num / 10;
 }
+     System.Console.WriteLine($"Сумма цифр равна {sum} ");
+if (num < 0)
+System.Console.WriteLine("Некорректный ввод числа. Требуется положительное число");
 
-System.Console.WriteLine($"Сумма цифр равна {sum} ");
